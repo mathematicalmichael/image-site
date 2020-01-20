@@ -1,0 +1,87 @@
+# Default language if you have a multi-language setup
+DefaultContentLanguage = "en"
+
+baseURL = "/"
+
+theme = "amperage"
+
+pygmentsUseClasses = true
+
+# Number of posts shown per page (dafault: 10)
+paginate = 3
+
+# Language sections
+[languages]
+    [languages.en]
+        contentDir = "content/english"
+        languageName = "English"
+        languageCode = "en"
+        title = "Mathematical Michael | Images"
+        description = "Photography Gallery"
+        weight = 1
+    #[languages.es]
+    #    contentDir = "content/spanish"
+    #    languageName = "Español"
+    #    languageCode = "es"
+    #    title = "Mathematical Michael | Fotos"
+    #    description = "Galería de Fotografía"
+    #    weight = 2
+    #[languages.fr]
+    #    contentDir = "content/french"
+    #    languageName = "Français"
+    #    languageCode = "fr"
+    #    title = "Mathematical Michael | Photos"
+    #    description = "Galerie de Photographie"
+    #    weight = 3 
+
+# Menu elements
+[[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "https://www.mathematicalmichael.com/#about"
+    weight = 1
+[[menu.main]]
+    identifier = "galleries"
+    name = "galleries"
+    url = "/galleries"
+    weight = 2
+
+# Enable only tags taxonomy
+[taxonomies]
+    tag = "tags"
+
+[params]
+    copyright = "Michael Pilosov" # Name shown on footer copyright
+    themeColor = "#333" # Theme color displayed on mobile browsers
+
+    # Default AMP components for the whole site
+    ampElements = ["amp-analytics", "amp-social-share", "amp-install-serviceworker"]
+
+    # Google Analytics code
+    # googleAnalytics = "UA-xxxxxxxxx-x"
+
+    # Adsense publisher code
+    # adsensePublisher = "ca-pub-123456789"
+
+    # Comments Iframe URL
+    # commentsEmbedUrl = "https://comments.example.com"
+
+    # Social sites for metatags
+    #facebookSite = "example"
+    twitterSite = "@compmathematics"
+
+    # Structured data elements
+    socialProfiles = ["https://twitter.com/compmathematics","https://www.linkedin.com/in/mathematicalmichael/","https://github.com/mathematicalmichael"]
+
+    alternatePageName = "Gallery of Mathematical Michael"
+    organizationLogo = "/logo.png"
+    organizationName = "Mind the Math"
+
+    publisherName = "Mind the Math"
+    publisherLogo = "/logo-amp-article.png"
+    publisherLogoWidth = 600
+    publisherLogoHeight = 60
+
+[markup]
+    defaultMarkdownHandler = "blackfriday"
+

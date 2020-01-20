@@ -1,0 +1,10 @@
+{{ define "main" }}
+	<article class="content">
+		{{ .Content }}
+        <!-- {{- partial "post/related-content.html" . -}} -->
+		{{- partial "post/comments.html" . -}}
+        <center>
+        <a href="javascript:history.back()">Go Back</a>
+        </center>
+	</article>
+{{ end }}
