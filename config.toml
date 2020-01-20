@@ -41,10 +41,17 @@ paginate = 3
     url = "https://www.mathematicalmichael.com/#about"
     weight = 1
 [[menu.main]]
-    identifier = "galleries"
-    name = "galleries"
-    url = "/galleries"
+    identifier = "twitter"
+    name = "@"
+    url = "https://www.twitter.com/compmathematics"
     weight = 2
+[[menu.main]]
+    identifier = "linkedin"
+    name = "in"
+    url = "https://www.linkedin.com/in/mathematicalmichael"
+    weight = 3
+
+
 
 # Enable only tags taxonomy
 [taxonomies]
