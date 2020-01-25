@@ -1,4 +1,0 @@
-#!/bin/sh
-SRC_FOLDER=$(pwd)
-mkdir -p $(pwd)/thumbs
-mogrify -resize 1440x -quality 100 -path thumbs *.jpg
