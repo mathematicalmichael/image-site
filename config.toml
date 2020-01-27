@@ -8,7 +8,7 @@ theme = "amperage"
 pygmentsUseClasses = true
 
 # Number of posts shown per page (dafault: 10)
-paginate = 3
+paginate = 5
 
 # Language sections
 [languages]
@@ -85,7 +85,7 @@ paginate = 3
     organizationName = "Mind the Math"
 
     publisherName = "Mind the Math"
-    publisherLogo = "/logo-amp-article.png"
+    publisherLogo = "/logo.png"
     publisherLogoWidth = 600
     publisherLogoHeight = 60
 
