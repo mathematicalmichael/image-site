@@ -1,0 +1,8 @@
+{{ define "main" }}
+<center>
+{{range ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+<a href="{{.Permalink}}">{{.Title}}</a>
+<br>
+{{end}}
+</center>
+{{end}}

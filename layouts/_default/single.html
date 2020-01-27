@@ -1,0 +1,22 @@
+{{ define "main" }}
+	<article class="content">
+		{{ .Content }}
+        <!-- {{- partial "post/related-content.html" . -}} -->
+		{{- partial "post/comments.html" . -}}
+        <center>
+        <a href="javascript:history.back()">Go Back</a>
+        </center>
+	</article>
+
+{{ $taxo := "tags" }}
+<ul id="{{ $taxo }}">
+More:
+    {{ range .Param $taxo }}
+       {{ $name := . }}
+       {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+            <li><a href="{{ .Permalink }}">{{ $name }}</a></li>
+        {{ end }}
+    {{ end }}
+</ul>
+{{ end }}
+
