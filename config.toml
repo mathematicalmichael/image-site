@@ -37,19 +37,19 @@ paginate = 5
 # Menu elements
 [[menu.main]]
     identifier = "about"
-    name = "?"
+    name = "about"
     url = "https://www.mathematicalmichael.com/#about"
-    weight = 2
+    weight = 1
 [[menu.main]]
     identifier = "twitter"
     name = "@"
     url = "https://www.twitter.com/compmathematics"
-    weight = 3
+    weight = 2
 [[menu.main]]
     identifier = "linkedin"
-    name = "🔗"
+    name = "in"
     url = "https://www.linkedin.com/in/mathematicalmichael"
-    weight = 1
+    weight = 3
 
 
 
