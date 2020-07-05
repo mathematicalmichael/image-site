@@ -227,7 +227,8 @@ blockquote {
 		padding: 0.1em;
 	}
 	table {
-		display: block;
+		display: table;
+		width: 100%;
 		overflow-x: auto;
 		border-collapse: collapse;
 		td, th {
@@ -237,12 +238,12 @@ blockquote {
 			padding: .5em 1em;
 		}
 		th {
-			padding: 1em 2em;
+			padding: 0em 0em;
 			background-color: #333;
 			color: white;
 		}
 		tr:nth-child(even) {
-			background-color: #F1F1F1;
+			background-color: #fff;
 		}
 		tr:hover {
 			background-color: #ddd;
