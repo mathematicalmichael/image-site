@@ -8,7 +8,7 @@ theme = "amperage"
 pygmentsUseClasses = true
 
 # Number of posts shown per page (dafault: 10)
-paginate = 5
+paginate = 10
 
 # Language sections
 [languages]
@@ -37,19 +37,19 @@ paginate = 5
 # Menu elements
 [[menu.main]]
     identifier = "about"
-    name = "about"
+    name = "?"
     url = "https://www.mathematicalmichael.com/#about"
-    weight = 1
+    weight = 2
 [[menu.main]]
     identifier = "twitter"
     name = "@"
     url = "https://www.twitter.com/compmathematics"
-    weight = 2
+    weight = 3
 [[menu.main]]
     identifier = "linkedin"
-    name = "in"
+    name = "🔗"
     url = "https://www.linkedin.com/in/mathematicalmichael"
-    weight = 3
+    weight = 1
 
 
 
